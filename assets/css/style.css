@@ -16,6 +16,14 @@
 body {
   margin: 0px;
   padding: 0px;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+input, textarea, select {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .content {
@@ -27,6 +35,19 @@ body {
   width: 100%;
   margin: auto;
 }
+
+.section {
+  background-color: #f2f2fc;
+  min-height: 100vh;
+  display: block;
+  padding: 0px 30px;
+}
+
+.shadow-dark {
+  -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
 
 
 
@@ -174,3 +195,79 @@ aside .copyright-text {
   font-size: 13px;
   color: #7d7d7d;
 }
+
+
+
+/* Home Section */
+.home {
+  height: 100vh;
+}
+
+.home .box {
+  text-align: center;
+  padding-top: 20%;
+}
+
+.home .box .img {
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.home .box .img img {
+  height: 200px;
+  width: 200px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.home .box .img img:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.home .box h1 {
+  font-size: 30px;
+  color: #2f2e4d;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  margin: 20px 0px 5px;
+}
+
+.home .box p {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px;
+  line-height: 22px;
+  color: #4f4e70;
+}
+
+.home .box .social-links {
+  margin-top: 25px;
+}
+
+.home .box .social-links a {
+  background-color: #4caf50;
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  margin: 0 4px;
+  border-radius: 50%;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.home .box .social-links a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+/*  */
