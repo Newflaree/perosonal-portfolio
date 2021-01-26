@@ -523,3 +523,78 @@ aside .copyright-text {
   color: #4f4e70;
   margin: 0px;
 }
+
+
+
+/* Services Section */
+.services {
+  background-color: #f2f2fc;
+}
+
+.services .services-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.services .services-content .service-item {
+  margin: 15px;
+}
+
+.services .services-content .service-item .service-item-inner {
+  height: 250px;
+  background-color: #fef9ff;
+  border: 1px solid #d5d4e4;
+  border-radius: 10px;
+  padding: 30px 15px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.services .services-content .service-item .service-item-inner:hover {
+  -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.services .services-content .service-item .service-item-inner:hover {
+  -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.services .services-content .service-item .service-item-inner .icon {
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.services .services-content .service-item .service-item-inner .icon .fas {
+  color: #4caf50;
+  font-size: 40px;
+  line-height: 60px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.services .services-content .service-item .service-item-inner:hover .icon .fas {
+  transform: scale( 0.9 );
+}
+
+.services .services-content .service-item .service-item-inner h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #2f2e4d;
+  font-weight: 700;
+}
+
+.services .services-content .service-item .service-item-inner p {
+  font-size: 16px;
+  color: #4f4e70;
+  line-height: 25px;
+  margin: 0px;
+}
