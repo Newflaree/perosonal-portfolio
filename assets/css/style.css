@@ -22,10 +22,6 @@ body {
   font-weight: 400;
 }
 
-input, textarea, select {
-  font-family: 'Montserrat', sans-serif;
-}
-
 .content {
   margin-left: 260px;
 }
@@ -330,7 +326,7 @@ aside .copyright-text {
   display: inline-block;
   text-align: center;
   line-height: 35px;
-  color: #fff;
+  color: #ffffff;
   margin: 0 4px;
   border-radius: 50%;
   text-decoration: none;
@@ -598,3 +594,90 @@ aside .copyright-text {
   line-height: 25px;
   margin: 0px;
 }
+
+
+
+/* Portfolio Section */
+.portfolio {
+  background-color: #f2f2fc;
+}
+
+.portfolio .portfolio-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio .portfolio-content .portfolio-item {
+  margin: 2%;
+}
+
+.portfolio .portfolio-item-inner {
+  border: 1px solid #d5d4e4;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.portfolio .portfolio-item-inner .portfolio-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio .portfolio-item-inner .portfolio-img img {
+  width: 100%;
+  display: block;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.portfolio .portfolio-item-inner:hover .portfolio-img img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.portfolio .portfolio-item-inner .portfolio-img .portfolio-date {
+  position: absolute;
+  padding: 4px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  left: 15px;
+  bottom: 15px;
+  background-color: #4caf50;
+}
+
+.portfolio .portfolio-item-inner .portfolio-info {
+  padding: 30px 15px;
+  background-color: #fef9ff;
+}
+
+.portfolio .portfolio-item-inner .portfolio-info .portfolio-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2f2e4d;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.portfolio .portfolio-item-inner .portfolio-info .portfolio-desc {
+  font-size: 16px;
+  line-height: 25px;
+  color: #4f4e70;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.portfolio .portfolio-item-inner .portfolio-info .portfolio-tags {
+  font-size: 14px;
+  line-height: 25px;
+  color: #4f4e70;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.portfolio .portfolio-item-inner .portfolio-info .portfolio-tags a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #4caf50;
+}
+
